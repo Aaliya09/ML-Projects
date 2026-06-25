@@ -1,6 +1,6 @@
 # Machine Learning Projects Portfolio
 
-This repository contains multiple machine learning projects implemented using Python and TensorFlow/Keras. Each project focuses on a different classification task with relevant datasets and models. These projects demonstrate skills in data preprocessing, model building, hyperparameter tuning, and evaluation.
+This repository showcases machine learning and deep learning projects developed using Python and TensorFlow/Keras. The projects demonstrate experience in data preprocessing, neural network development, hyperparameter optimization, model evaluation, and classification tasks across image, text, and remote sensing datasets.
 
 ---
 
@@ -8,56 +8,63 @@ This repository contains multiple machine learning projects implemented using Py
 
 ### 1. MNIST Digit Classification
 
-- **Description:** Neural network to classify handwritten digits (0-9) using the MNIST dataset.
-- **Dataset:** 70,000 grayscale 28x28 images of digits.
-- **Model:** Fully connected neural network with dropout and ReLU activation.
-- **Results:** Achieved ~98% test accuracy. Explored effects of tuning epochs, dropout, nodes, and batch size.
-- **Notebook:** [`MNIST_Classification.ipynb`](./MNIST_Classification.ipynb)
+* **Objective:** Develop a neural network capable of classifying handwritten digits (0–9).
+* **Dataset:** MNIST dataset containing 70,000 grayscale images (28×28 pixels).
+* **Model:** Fully connected neural network with ReLU activation and dropout regularization.
+* **Results:** Achieved approximately 98% test accuracy through hyperparameter optimization and architecture tuning.
+* **Skills:** Deep Learning, Neural Networks, Model Optimization, TensorFlow/Keras.
+* **Notebook:** [`MNIST_Classification.ipynb`](./MNIST_Classification.ipynb)
 
 ---
 
 ### 2. CIFAR-10 Image Classification
 
-- **Description:** CNN model classifying 32x32 color images into 10 categories.
-- **Dataset:** CIFAR-10 with 60,000 images across 10 classes.
-- **Model:** Convolutional Neural Network with multiple Conv2D, MaxPooling, and dropout layers.
-- **Results:** Achieved 80% test accuracy with model2. Experimented with architecture and regularization.
-- **Notebook:** [`CIFAR_Classification.ipynb`](./CIFAR_Classification.ipynb)
+* **Objective:** Build a Convolutional Neural Network (CNN) for object recognition.
+* **Dataset:** CIFAR-10 dataset containing 60,000 color images across 10 classes.
+* **Model:** CNN architecture with convolutional, pooling, and dropout layers.
+* **Results:** Achieved approximately 80% test accuracy after architecture optimization.
+* **Skills:** Computer Vision, CNNs, Image Classification, Deep Learning.
+* **Notebook:** [`CIFAR_Classification.ipynb`](./CIFAR_Classification.ipynb)
 
 ---
 
 ### 3. Reuters Newswire Classification
 
-- **Description:** Multi-class text classification of Reuters news articles into 46 topics.
-- **Dataset:** 11,228 news articles with topic labels.
-- **Model:** Multi-layer perceptron with two dense layers and dropout.
-- **Results:** Achieved ~70% test accuracy. Addressed challenges with class imbalance.
-- **Notebook:** [`Reuters_Classification.ipynb`](./Reuters_Classification.ipynb)
+* **Objective:** Classify news articles into 46 topic categories.
+* **Dataset:** Reuters newswire dataset containing 11,228 articles.
+* **Model:** Multi-layer neural network with dropout regularization.
+* **Results:** Achieved approximately 70% classification accuracy.
+* **Skills:** Natural Language Processing, Text Classification, Neural Networks.
+* **Notebook:** [`Reuters_Classification.ipynb`](./Reuters_Classification.ipynb)
 
 ---
 
-### 4. Bamboo Detection from Satellite Images
+### 4. Bamboo Forest Detection from Satellite Images
 
-- **Description:** CNN model to classify satellite images as containing bamboo forests or not.
-- **Dataset:** Custom dataset with labeled satellite images (bamboo vs. non-bamboo). Images are divided into overlapping 56×56 patches for training.
-- **Model:** Convolutional Neural Network with 3 Conv2D layers, MaxPooling, Dropout, and Dense layers.
-- **Results:** Achieved strong binary classification performance. Addressed class imbalance using weighted loss. Visualized predictions and explored effects of patching.
-- **Notebook:** [`Bamboo_Detection.ipynb`](./Bamboo_Detection.ipynb)
+* **Objective:** Detect bamboo forests using satellite imagery and deep learning.
+* **Dataset:** Custom satellite image dataset containing bamboo and non-bamboo classes.
+* **Model:** CNN with image patch generation, class balancing, and dropout regularization.
+* **Results:** Demonstrated strong binary classification performance on remote sensing imagery.
+* **Skills:** Computer Vision, Remote Sensing, Deep Learning, Geospatial Data Analysis.
+* **Notebook:** [`Bamboo_Detection.ipynb`](./Bamboo_Detection.ipynb)
 
 ---
 
+## Technologies Used
 
-## Getting Started
+* Python
+* TensorFlow
+* Keras
+* NumPy
+* Matplotlib
+* Jupyter Notebook
 
-### Requirements
+---
 
-- Python 3.x
-- TensorFlow
-- NumPy
-- Matplotlib
-- Jupyter Notebook or JupyterLab
+## Future Work
 
-You can install dependencies with:
-
-```bash
-pip install tensorflow numpy matplotlib jupyter
+* PyTorch implementations
+* Transformer-based architectures
+* Bioinformatics machine learning projects
+* RNA-Seq and scRNA-Seq analysis workflows
+* Multi-omics data integration projects
