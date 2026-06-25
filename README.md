@@ -61,10 +61,4 @@ This repository showcases machine learning and deep learning projects developed 
 
 ---
 
-## Future Work
 
-* PyTorch implementations
-* Transformer-based architectures
-* Bioinformatics machine learning projects
-* RNA-Seq and scRNA-Seq analysis workflows
-* Multi-omics data integration projects
